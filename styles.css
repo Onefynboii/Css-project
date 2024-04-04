@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: 'Roboto',sans-serif;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    width: 20%;
+    margin-right: -4px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    height: 40%;
+    line-height: 40%;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+}
+nav a:hover{
+    background-color: #005f5f;
+}
+nav a.active{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+}
+.ul-lists{
+    display: inline;
+    list-style: none;
+}
+/*Apply Roboto font globally*/
+body{
+    font-family: 'Roboto',sans-serif
+}
